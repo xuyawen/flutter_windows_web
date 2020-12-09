@@ -1,7 +1,7 @@
 # windows_app
 
-``
-
+```bash
+#!/bin/bash
 windows
 
 flutter channel dev  
@@ -17,10 +17,10 @@ flutter build windows
 flutter build macos
 flutter build linux
 
-``
+```
 
-``
-
+```bash
+#!/bin/bash
 web
 
 flutter channel beta  
@@ -30,7 +30,7 @@ flutter devices
 flutter run -d chrome  
 flutter build web  
 
-``
+```
 
 ## Getting Started
 
