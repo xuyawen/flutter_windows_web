@@ -18,6 +18,7 @@ flutter build macos
 flutter build linux
 
 ```
+# web_app
 
 ```bash
 #!/bin/bash
@@ -30,6 +31,12 @@ flutter devices
 flutter run -d chrome  
 flutter build web  
 
+```
+
+## app
+#!/bin/bash
+```bash
+flutter config --clear-features
 ```
 
 ## Getting Started
